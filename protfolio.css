@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: auto;
+  border-radius: 2%;
+  font-family: "Poppins", sans-serif;
+}
+
+.main {
+  margin: 10px;
+  padding: 5px;
+  background-color: gray;
+  border-radius: 2%;
+}
+.main-header {
+  display: flex;
+  align-items: center;
+  padding: 2%;
+  border-radius: 2%;
+}
+
+.nav-div {
+  align-items: center;
+
+  background-color: yellowgreen;
+  height: max-content;
+  width: 100%;
+  font-size: larger;
+  font-weight: 300;
+}
+
+.projects-div {
+  margin: 5px;
+  padding: 5px;
+  align-items: center;
+  border-radius: 2%;
+  border-color: black;
+  background-color: brown;
+}
+
+.left {
+  background-color: blue;
+  padding: 2%;
+  border-radius: 2%;
+  flex: 1;
+}
+
+.right {
+  background-color: green;
+  flex: 1;
+}
+.aside-image {
+  border-radius: 5%;
+  border-color: black;
+  background-color: aqua;
+}
